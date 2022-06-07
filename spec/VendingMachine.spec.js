@@ -1,13 +1,11 @@
-const TodoList = require("../src/VendingMachine.js")
+const VendingMachine = require('../src/VendingMachine.js');
 
-describe("VendingMachine", () => {
-  let vendingMachine
+describe('VendingMachine', () => {
+  let vendingMachine;
 
   beforeEach(() => {
-    vendingMachine = new VendingMachine()
-  })
+    vendingMachine = new VendingMachine();
+  });
 
-  it("", () => {
-   
-  })
-})
+  it('', () => {});
+});
